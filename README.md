@@ -1,6 +1,10 @@
-# English Version
+<div align="center">
+<img src="Banner_Hutank.png" alt="Hutank Banner" width="660" height="auto" />
+</div>
+---
 
-# Hutank - Debt Reminder Application
+
+# Hutank - Debt Reminder Application (English Version)
 
 Hutank is a web-based application (PWA) designed to help you record, manage, and track your debt status. With a modern interface and comprehensive features, this application aims to help you achieve financial freedom.
 
@@ -84,8 +88,7 @@ hutank/
 ```
 
 ---
-# Indonesian Version
-# Hutank - Aplikasi Pengingat Hutang
+# Hutank - Aplikasi Pengingat Hutang (Indonesian Version)
 
 Hutank adalah aplikasi berbasis web (PWA) yang dirancang untuk membantu Anda mencatat, mengelola, dan mengingatkan status hutang piutang Anda. Dengan antarmuka yang modern dan fitur yang lengkap, aplikasi ini bertujuan untuk membantu Anda mencapai kebebasan finansial.
 
