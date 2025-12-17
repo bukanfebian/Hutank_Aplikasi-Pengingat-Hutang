@@ -138,7 +138,7 @@ const firebaseConfig = {
 9. **Penting**: Pastikan Anda mengaktifkan **Authentication** (Email/Password & Google) dan **Realtime Database** di Firebase Console Anda.
 
 ### 2. Menjalankan Aplikasi
-Ku sarankan untuk mengunakan Nginx atau liveserver di VS code.
+saya sarankan untuk mengunakan Nginx atau liveserver di VS code.
 
 **Menggunakan VS Code Live Server:**
 1.  Install ekstensi **Live Server** di VS Code.
