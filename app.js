@@ -2,13 +2,12 @@
 
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyACX-oqq8YhRrC8n-aKe3786oDnyyvDFjU",
-    authDomain: "hutank-apps.firebaseapp.com",
-    databaseURL: "https://hutank-apps-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "hutank-apps",
-    storageBucket: "hutank-apps.firebasestorage.app",
-    messagingSenderId: "676177433676",
-    appId: "1:676177433676:web:903f489b7fe00202f750e9"
+    authDomain: "YOUR_AUTH_DOMAIN",
+    databaseURL: "YOUR_DATABASE_URL",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
 };
 
 // Initialize Firebase
@@ -51,7 +50,7 @@ const RATE_LIMIT = {
 
 // Motivational Quotes
 const QUOTES = [
-    { text: "Hutang bukan akhir dunia. Kelola dengan baik, lunasi dengan sabar.", author: "💪" },
+    { text: "Bayar Hutank woii, sah sampai jatuh tempo.", author: "@bukanfebian_ (Developer Hutank)" },
     { text: "Setiap cicilan yang dibayar adalah langkah menuju kebebasan finansial.", author: "🎯" },
     { text: "Disiplin hari ini, bebas finansial esok hari.", author: "✨" },
     { text: "Catat, kelola, lunasi. Tiga langkah menuju bebas hutang!", author: "📝" },
@@ -93,8 +92,6 @@ function getSkeletonHTML() {
         </div>
     `).join('');
 }
-
-// function renderDebtList removed (moved to top with skeleton logic)
 
 // Initialize App
 document.addEventListener('DOMContentLoaded', initApp);
@@ -999,7 +996,7 @@ function renderProfileView() {
         const aboutBtn = $('#btn-about');
         if (aboutBtn) {
             aboutBtn.addEventListener('click', () => {
-                showToast('info', 'Hutank v1.0', 'Aplikasi pengingat hutang oleh Anda ❤️');
+                showToast('info', 'Hutank v1.0', 'Aplikasi pengingat hutang dibuat @Bukanfebian_❤️');
             });
         }
     }, 100);
